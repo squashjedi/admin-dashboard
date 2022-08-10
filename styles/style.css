@@ -253,12 +253,13 @@ body {
 .announcements .card > div {
   padding: 20px 0;
   flex: 1;
-}
-
-.announcements .card > div:not(:last-child) {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.announcements .card > div:not(:last-child) {
+
   border-bottom: 1px solid lightgray;
 }
 
@@ -285,7 +286,7 @@ body {
   padding: 0 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: white;
   border-radius: 10px;
   box-shadow: 2px 2px 2px #ccc;
